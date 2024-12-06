@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Juan Manuel Castillo Robles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index2.css">
+    <script src="https://kit.fontawesome.com/3a2db6f1b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/juan-manuel-castillo-robles-75356a330/" target="_blank" aria-label="Perfil de LinkedIn de Juan Manuel">
+                <img src="assets/linkedin-logo.png" alt="LinkedIn" class="icon" loading="lazy">
+            </a>
+            <a href="https://www.portafolio.co/juan806265" target="_blank" aria-label="Portafolio de Juan Manuel">
+                <img src="assets/portafolio-logo.png" alt="Portafolio" class="icon" loading="lazy">
+            </a>
+            <a href="https://github.com/juancast24" target="_blank" aria-label="GitHub de Juan Manuel">
+                <img src="assets/github-logo.png" alt="GitHub" class="icon" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com/jmcastillo24.7" target="_blank" aria-label="Instagram de Juan Manuel">
+                <img src="assets/instagram-logo.png" alt="Instagram" class="icon" loading="lazy">
+            </a>
+            <a href="https://x.com/juancas53236091" target="_blank" aria-label="Twitter de Juan Manuel">
+                <img src="assets/twitter-logo.png" alt="Twitter" class="icon" loading="lazy">
+            </a>
+            <a href="https://www.facebook.com/m3mo27" target="_blank" aria-label="Facebook de Juan Manuel">
+                <img src="assets/facebook-logo.png" alt="Facebook" class="icon" loading="lazy">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index2.html">Inicio</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="intro-background">
+            <img src="assets/juan.jpg" alt="Juan Manuel" class="profile-image" id="profileImage">
+            <h1>Juan Manuel Castillo Robles</h1>
+            <h2>Estudiante en Desarrollo de Software<br>Auxiliar en gestión documental</h2>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('profileImage').addEventListener('click', function() {
+            this.classList.toggle('enlarged');
+        });
+    </script>
+</body>
+</html>
